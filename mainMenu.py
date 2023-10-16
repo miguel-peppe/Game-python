@@ -65,7 +65,7 @@ class GameMenu:
         print('Start with Mage?')
         print('[S]elect')
         print('Press any button to back')
-        choose = input('')
+        choose = input('').lower()
         if choose == 's':
             return ...
         else:
@@ -100,7 +100,7 @@ class GameMenu:
         print('Start with Assassin?')
         print('[S]elect')
         print('Press any button to back')
-        choose = input('')
+        choose = input('').lower()
         if choose == 's':
             return ...
         else:
@@ -133,7 +133,7 @@ class GameMenu:
         print('Start with Warior?')
         print('[S]elect')
         print('Press any button to back')
-        choose = input('')
+        choose = input('').lower()
         if choose == 's':
             return ...
         else:
